@@ -2,15 +2,15 @@ package com.pluralsight;
 
 public class MathApp {
     public static void main(String[] args) {
-        int bobSalary = 60000;
-        int garySalary = 70000;
-        int highestSalary = Math.max(bobSalary,garySalary);
+        double bobSalary = 60000;
+        double garySalary = 70000;
+        double highestSalary = Math.max(bobSalary,garySalary);
         System.out.println("The higher salary is: " + highestSalary);
 
         // 2
-        int carPrice = 45000;
-        int truckPrice = 60000;
-        int smallestPrice = Math.min(carPrice,truckPrice);
+        double carPrice = 45000;
+        double truckPrice = 60000;
+        double smallestPrice = Math.min(carPrice,truckPrice);
         System.out.println("The smaller price is: " + smallestPrice);
 
          //3 area fo circle
